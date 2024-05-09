@@ -1,14 +1,17 @@
-import logo from "./logo.svg";
 import "./App.css";
+import Form from "./Form";
+import Weather from "./Weather";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>Hello from Mariana </p>
-      </header>
+      <Form />
+      <h1>Sydney NSW, Australia</h1>
+      <ul>
+        <li>Wednesday 22:00</li>
+        <li>Partly Cloudy</li>
+      </ul>
+      <Weather />
     </div>
   );
 }
-
-export default App;
